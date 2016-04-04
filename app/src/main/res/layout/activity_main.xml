@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lin">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="70dp"
+                android:gravity="right"
+                android:textSize="12pt"
+                android:textStyle="italic"
+                android:inputType="numberDecimal"
+                android:cursorVisible="false"
+                android:editable="false"
+                android:windowSoftInputMode="stateHidden"
+                android:id="@+id/et"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="RESULT"
+                android:id="@+id/tv"
+                android:textSize="12pt"
+                />
+
+
+
+            {Put all those you want to come in 1st layout here}
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+            <TableLayout
+
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TableRow>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:id="@+id/bt1">
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:id="@+id/bt2">
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:id="@+id/bt3">
+                    </Button>
+                </TableRow>
+                <TableRow>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4"
+                        android:id="@+id/bt4">
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:id="@+id/bt5">
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6"
+                        android:id="@+id/bt6">
+                    </Button>
+                </TableRow>
+                <TableRow>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7"
+                        android:id="@+id/bt7">
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8"
+                        android:id="@+id/bt8">
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9"
+                        android:id="@+id/bt9">
+                    </Button>
+                </TableRow>
+                <TableRow>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="."
+                        android:id="@+id/bdot">
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:id="@+id/bt10">
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="="
+                        android:id="@+id/ravno">
+                    </Button>
+                </TableRow>
+                <TableRow>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+"
+                        android:id="@+id/bplus">
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:id="@+id/bminus">
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C"
+                        android:id="@+id/cle">
+                    </Button>
+                </TableRow>
+
+
+            </TableLayout>
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/lis">
+
+
+                </ListView>
+
+            {Put all those you want to come in 2nd layout here}
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

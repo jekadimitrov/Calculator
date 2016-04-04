@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Less1516</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="dopf">
+        <item>*</item>
+        <item>/</item>
+        <item>cos</item>
+    <item>sin</item>
+    <item>tan</item>
+    <item>ln</item>
+        <item>log</item>
+        <item>!</item>
+        <item>e</item>
+        <item>^</item>
+        <item>(</item>
+        <item>)</item>
+        <item>sqrt</item>
+        <item>" ² "</item>
+
+
+    </string-array>
+</resources>
